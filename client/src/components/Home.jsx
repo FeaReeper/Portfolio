@@ -3,11 +3,13 @@ import { useState } from 'react'
 import Nav from './Nav'
 import SimpleImageSlider from 'react-simple-image-slider'
 import Certificate from '../assets/Certificate.jpg'
+import JavaScript from '../assets/JavaScriptMERN.png'
+import Python from '../assets/PythonFlask.png'
 import Bio from './Bio'
 import Projects from './Projects'
 
 const Home = () => {
-const slides = [Certificate]
+const slides = [Certificate, JavaScript, Python]
 const [imageNum, setImageNum] = useState(0)
 
   return (
@@ -31,6 +33,7 @@ const [imageNum, setImageNum] = useState(0)
             }}
             autoPlayDelay={3}
           />
+          
         </div>
         <div>
           <Projects/>

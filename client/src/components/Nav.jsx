@@ -5,7 +5,7 @@ import FloatingComputer from '../assets/FloatingComputer.json'
 
 const Nav = () => {
   return (
-    <div className=' nav-background-image rounded-2xl'>
+    <div className=' nav-background-image rounded-2xl mx-10'>
       <div className='flex justify-between w-4/5 mx-auto p-1 text-white'>
         <div className='flex gap-5'>
           <Lottie animationData={FloatingComputer} className='w-1/6'/>
