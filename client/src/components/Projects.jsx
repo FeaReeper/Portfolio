@@ -10,7 +10,7 @@ const Projects = () => {
     </div>
     <div style={{backgroundColor: 'white', height: '780px', width: '400px'}} className='border-4 rounded-2xl overflow-scroll'>
       <div className='p-5'>        
-        <a href="http://3.129.17.64/"><h2 className='font-bold text-xl'>Little Buckets</h2></a>
+        <a href="https://little-bucket.vercel.app/"><h2 className='font-bold text-xl'>Little Buckets</h2></a>
         <img className='my-3' src={LittleBuckets} alt="" />
         <p>A Full-Stack JavaScript/MERN application using Vite, React, Bootstrap for the front-end, and Express and MongoDB for the back-end.</p>
       </div>
