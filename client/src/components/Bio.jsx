@@ -6,10 +6,10 @@ import SoccerBallAnimation from "../assets/SoccerBallAnimation.json"
 const Bio = () => {
   return (
     <div>
-      <div className='flex justify-center gap-5 rounded-2xl mb-2' style={{backgroundColor: '#75010b', height: '10vh', width: '400px'}}>
+      <div className='flex justify-center gap-5 rounded-2xl mb-2 bg-red p-5 w-96 mx-auto'>
         <h1 className='text-4xl font-bold my-auto shadow-lg'>Matthew Reep</h1>
       </div>
-      <div style={{backgroundColor: 'white', height: 'fit-content', width: '400px'}} className='border-4 p-5 rounded-2xl'>
+      <div className='border-4 p-5 rounded-2xl bg-white h-fit w-96 mx-auto'>
         <div className='flex'>
           <img src={ProfilePic} alt="" className='rounded-full w-48' />
           <Lottie animationData={SoccerBallAnimation} className='w-1/2'/>
@@ -19,7 +19,7 @@ const Bio = () => {
           Coding Dojo becoming certified in JavaScript and Python!
         </p>
       </div>
-      <div style={{backgroundColor: 'white', height: 'fit-content', width: '400px'}} className='border-4 p-5 rounded-2xl mt-5'>
+      <div className='border-4 p-5 rounded-2xl mt-5 bg-white h-fit w-96 mx-auto'>
         <div className='text-center'>
           <h2 className='text-2xl font-bold my-auto shadow-lg'>More about Matt</h2>
           <p className='font-mono mt-5'>Beyond code, I bring a collaborative spirit and team player mentality. I thrive in dynamic environments where ideas ignite and projects evolve. 

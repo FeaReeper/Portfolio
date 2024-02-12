@@ -1,15 +1,9 @@
 body {
-  /* background-color: gray; */
   background-image: url('./assets/background.jpg');
-  background-size: 1400px ;
+  background-size: cover ;
 }
 
-.nav-background-image {
-  /* background-image: url('./assets/atlutd_flag.jpg'); */
+.bg-red {
   background-color: #75010b;
-}
-
-.contianer {
-  display: flex;
 }
 
