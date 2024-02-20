@@ -25,9 +25,9 @@ const Bio = () => {
           <div className='text-center'>
             <h2 className='text-2xl font-bold my-auto shadow-lg'>More about Matt</h2>
             <p className='font-mono mt-5 md:p-2'>Beyond code, I am a 90's baby happily married to my amazing wife, Naomi. As of October 2023 the Reep family
-            became familyCount++ adding our beautiful little girl Nya! I can't forget our two crazy dogos, Khloe and Kora. We all love to 
-            travel whether it's camping, beach trip or heading out of the country. If you can't tell, huge soccer supporters, GO ATL UTD!!!
-            Lastly, and most importantly, I am a follower of Jesus, no matter what any of us go through, we can always count on him to be there.
+            became familyCount++ adding our beautiful little girl Nya! I can't forget our two energetic dogs, Khloe and Kora. We all love to 
+            travel whether it's camping, beach trip, or heading out of the country. If you can't tell, huge soccer supporters - GO ATL UTD!!!
+            Lastly, and most importantly, I am a follower of Jesus, no matter what any of us go through, we can always count on Him to be there.
             </p>
           </div>
         </div>
