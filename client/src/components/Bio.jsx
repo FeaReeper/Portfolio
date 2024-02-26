@@ -9,8 +9,8 @@ const Bio = () => {
       <div className='flex justify-center gap-5 rounded-2xl mb-2 bg-red p-5 w-96 mx-auto md:w-2/3'>
         <h1 className='text-4xl font-bold my-auto shadow-lg'>Matthew Reep</h1>
       </div>
-      <div className='w-96 mx-auto md:w-2/3 md:gap-40 md:flex'>
-        <div className='border-4 p-5 rounded-2xl bg-white h-fit md:my-auto'>
+      <div className='w-96 mx-auto md:w-2/3 2xl:gap-60 2xl:flex'>
+        <div className='border-4 p-5 rounded-2xl bg-white h-fit 2xl:flex-1'>
           <div className='flex md:justify-evenly'>
             <img src={ProfilePic} alt="" className='rounded-full w-48 md:w-1/3 md:h-1/3' />
             <Lottie animationData={SoccerBallAnimation} className='w-1/2 md:w-1/4'/>
@@ -21,7 +21,7 @@ const Bio = () => {
           </p>
           <p className='font-mono mt-5 md:w-3/4 md:mx-auto'>I love those who love me, and those who seek me find me. - Proverbs 8:17</p>
         </div>
-        <div className='border-4 p-5 rounded-2xl bg-white h-fit w-96 mx-auto mt-5 md:mt-0 md:w-2/3'>
+        <div className='border-4 p-5 mt-5 rounded-2xl bg-white h-fit 2xl:mt-0 2xl:flex-1'>
           <div className='text-center'>
             <h2 className='text-2xl font-bold my-auto shadow-lg'>More about Matt</h2>
             <p className='font-mono mt-5 md:p-2'>Beyond code, I am a 90's baby happily married to my amazing wife, Naomi. As of October 2023 the Reep family
